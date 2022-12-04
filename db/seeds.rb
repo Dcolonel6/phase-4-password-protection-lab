@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+puts "planting users 🌱 ..."
+
+10.times do |i|
+    User.create(username:Faker::FunnyName.two_word_name)
+end
+
+puts "Done planting 👍✅"

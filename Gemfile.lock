@@ -74,6 +74,8 @@ GEM
     crass (1.0.6)
     diff-lcs (1.4.4)
     erubi (1.10.0)
+    faker (2.19.0)
+      i18n (>= 1.6, < 2)
     ffi (1.15.0)
     foreman (0.87.2)
     globalid (0.4.2)
@@ -183,6 +185,7 @@ DEPENDENCIES
   active_model_serializers (~> 0.10.12)
   bcrypt (~> 3.1.7)
   byebug
+  faker
   foreman (~> 0.87)
   listen (~> 3.3)
   puma (~> 5.0)
